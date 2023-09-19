@@ -16,12 +16,32 @@
   --yelow-muted: #f2cc8f;
 }
 
+body {
+  margin-top: 60px;
+  /* so that navbar doesn't cover content */
+  display: flex;
+  flex-direction: column;
+  /* change this in desktop */
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  width: 100vw;
+}
 .hero {
   height: 95vh;
   width: 100vw;
   background-image: url(/img/compressed_girl-1026246_1920.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: none;
+}
+
+h1 {
+  text-align: center;
 }
 
 footer {
