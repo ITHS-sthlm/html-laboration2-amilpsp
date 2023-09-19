@@ -23,3 +23,8 @@
     background-size: cover;
     background-position: center;
 }
+
+footer {
+    background-color: var(--dblue-8bit);
+    color: var(--white-muted);
+}
