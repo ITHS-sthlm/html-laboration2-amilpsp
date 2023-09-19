@@ -44,6 +44,8 @@ main {
 }
 
 #hero-text {
+  font-family: "Open Sans";
+  font-size: 100px !important; /* bootstrap is messing with me, this doesn't change -_- */
   text-align: center;
   position: absolute;
   top: 50%;
