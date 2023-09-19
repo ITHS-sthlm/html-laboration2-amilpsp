@@ -1,30 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
 .root {
-    font-family: "Open Sans", sans-serif;
-    --pink-8bit: #ef476f;
-    --yellow-8bit: #ffd166;
-    --green-8bit: #06d6a0;
-    --lblue-8bit: #118ab2;
-    --dblue-8bit: #073b4c;
-    /* haven't decided which palette I'll use */
-    /* !! DELETE EXCESS !! */
-    --white-muted: #f4f1de;
-    --orange-muted: #e07a5f;
-    --blue-muted: #3d405b;
-    --green-muted: #81b29a;
-    --yelow-muted: #f2cc8f;
+  font-family: "Open Sans", sans-serif;
+  --pink-8bit: #ef476f;
+  --yellow-8bit: #ffd166;
+  --green-8bit: #06d6a0;
+  --lblue-8bit: #118ab2;
+  --dblue-8bit: #073b4c;
+  /* haven't decided which palette I'll use */
+  /* !! DELETE EXCESS !! */
+  --white-muted: #f4f1de;
+  --orange-muted: #e07a5f;
+  --blue-muted: #3d405b;
+  --green-muted: #81b29a;
+  --yelow-muted: #f2cc8f;
+}
+
+/* TRYING TO HAVE MY NAVBAR FIXED TO THE TOP, following instructions from: https://getbootstrap.com/docs/3.4/components/#navbar-fixed-top 
+
+hence the body padding*/
+body {
+  padding-top: 70px;
 }
 
 .hero {
-    height: 90vh;
-    width: 100vw;
-    background-image: url(/img/compressed_girl-1026246_1920.jpg);
-    background-size: cover;
-    background-position: center;
+  height: 90vh;
+  width: 100vw;
+  background-image: url(/img/compressed_girl-1026246_1920.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 footer {
-    background-color: var(--dblue-8bit);
-    color: var(--white-muted);
+  background-color: var(--dblue-8bit);
+  color: var(--white-muted);
 }
