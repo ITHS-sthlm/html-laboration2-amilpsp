@@ -66,6 +66,15 @@ footer {
   align-items: center;
 }
 
+/* carousel customization */
 .carousel {
-  width: 80vw !important;
+  width: 50vw !important;
 }
+.carousel-inner {
+  height: 30vh !important;
+}
+.carousel > img {
+  height: 50vh !important;
+  width: 30vh !important;
+}
+/* end carousel */
