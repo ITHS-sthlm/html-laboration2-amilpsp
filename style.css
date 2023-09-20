@@ -3,13 +3,11 @@
 :root {
   font-family: "Open Sans", sans-serif;
 
-  --yellow-8bit: #ffd166;
-  --dblue-8bit: #073b4c;
-  --white-muted: #f4f1de;
+  --darkest: #212529;
+  --main: #81b29a;
   --orange-muted: #e07a5f;
-  --blue-muted: #3d405b;
-  --green-muted: #81b29a;
-  --yelow-muted: #f2cc8f;
+  --white-muted: #f4f1de;
+  --yelow-muted: #cab99d;
 }
 
 body {
@@ -29,11 +27,11 @@ main {
   justify-content: center;
   align-items: center;
   min-height: 95vh;
-  width: 100vw;
+  width: 99vw;
 }
 .hero {
   height: 95vh;
-  width: 100vw;
+  width: 99vw;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(/img/compressed_girl-1026246_1920.jpg);
   background-size: cover;
@@ -55,17 +53,31 @@ main {
 }
 
 #about {
-  padding: 1em 0.7em 1em 0.7em;
+  padding: 1em 0.4em;
 }
 article {
-  background-color: var(--green-muted);
+  background-color: var(--yelow-muted);
   border-radius: 8px;
-  padding: 1em 0.7em;
+  padding: 1em 0.2em;
   margin-bottom: 1em;
 }
-
+.about p {
+  background-color: var(--darkest);
+  border-radius: 8px;
+  padding: 1em 0.4em;
+  margin-top: 1em;
+}
 .light-bg {
-  color: var(--dblue-8bit) !important;
+  color: var(--darkest);
+}
+.about h1 {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0;
+}
+.about h4 {
+  font-style: italic;
+  text-align: center;
 }
 
 /* carousel customization */
@@ -76,8 +88,10 @@ slide,
 .active,
 .carousel > img,
 .dblock {
-  width: 100vw !important;
-  margin: auto auto !important;
+  height: 66vw;
+  width: 99vw !important;
+}
+.carousel {
 }
 
 /* end carousel */
@@ -86,4 +100,8 @@ footer {
   display: inherit;
   justify-content: center;
   align-items: center;
+  max-width: 99vw;
+}
+nav {
+  max-width: 99vw;
 }
