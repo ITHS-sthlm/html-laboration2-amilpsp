@@ -26,12 +26,13 @@ body {
   /* change this in desktop */
 }
 
+#top,
 main {
   display: inherit;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 95vh;
+  min-height: 95vh;
   width: 100vw;
 }
 .hero {
@@ -63,4 +64,7 @@ footer {
   display: inherit;
   justify-content: center;
   align-items: center;
+}
+
+main {
 }
