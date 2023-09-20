@@ -66,5 +66,6 @@ footer {
   align-items: center;
 }
 
-main {
+.carousel {
+  width: 80vw !important;
 }
