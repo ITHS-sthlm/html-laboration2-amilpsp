@@ -4,10 +4,10 @@
   font-family: "Open Sans", sans-serif;
 
   --darkest: #212529;
-  --main: #81b29a;
+  --main: #7eacac;
   --orange-muted: #e07a5f;
   --white-muted: #f4f1de;
-  --yelow-muted: #cab99d;
+  --lightest: #cab99d;
 }
 
 body {
@@ -55,10 +55,10 @@ main {
 #about {
   padding: 1em 0.4em;
 }
-article {
-  background-color: var(--yelow-muted);
+article.about {
+  background-color: var(--main);
   border-radius: 8px;
-  padding: 1em 0.2em;
+  padding: 1em 0.4em;
   margin-bottom: 1em;
 }
 .about p {
@@ -66,9 +66,6 @@ article {
   border-radius: 8px;
   padding: 1em 0.4em;
   margin-top: 1em;
-}
-.light-bg {
-  color: var(--darkest);
 }
 .about h1 {
   font-weight: 700;
@@ -78,6 +75,12 @@ article {
 .about h4 {
   font-style: italic;
   text-align: center;
+}
+.light-bg {
+  color: var(--darkest);
+}
+.dark-bg {
+  columns: var(--main);
 }
 
 /* carousel customization */
