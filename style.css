@@ -74,8 +74,8 @@ slide,
 .active,
 .carousel > img,
 .dblock {
-  width: 40vw !important;
-  height: 27vh !important;
+  width: 100vw !important;
+  height: 100vh !important;
   margin: auto auto !important;
 }
 
