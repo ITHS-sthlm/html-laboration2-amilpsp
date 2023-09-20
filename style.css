@@ -67,14 +67,16 @@ footer {
 }
 
 /* carousel customization */
-.carousel {
-  width: 50vw !important;
+.carousel,
+.carousel-inner,
+.carousel-item,
+slide,
+.active,
+.carousel > img,
+.dblock {
+  width: 40vw !important;
+  height: 27vh !important;
+  margin: auto auto !important;
 }
-.carousel-inner {
-  height: 30vh !important;
-}
-.carousel > img {
-  height: 50vh !important;
-  width: 30vh !important;
-}
+
 /* end carousel */
