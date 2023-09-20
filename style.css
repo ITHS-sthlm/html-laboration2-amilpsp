@@ -63,11 +63,11 @@ article.about {
 }
 .about p {
   background-color: var(--darkest);
-  border-radius: 8px;
-  padding: 1em 0.4em;
+  border-radius: 0 0 8px 8px;
+  padding: 0.6em;
   margin-top: 1em;
 }
-.about h1 {
+.about h2 {
   font-weight: 700;
   text-align: center;
   margin-bottom: 0;
@@ -89,12 +89,11 @@ article.about {
 .carousel-item,
 slide,
 .active,
-.carousel > img,
+.carousel img,
 .dblock {
+  border-image-slice: fill;
   height: 66vw;
   width: 99vw !important;
-}
-.carousel {
 }
 
 /* end carousel */
