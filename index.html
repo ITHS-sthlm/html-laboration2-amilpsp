@@ -14,10 +14,13 @@
     <!-- Bootstrap pre-built navbar -->
     <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">ÆSTHETIK</a> <!-- my brand -->
+
+        <a class="navbar-brand" href="#">ÆSTHETIK</a> 
+                  <!-- my brand -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
@@ -27,31 +30,10 @@
               <li class="nav-item">
               <a class="nav-link" href="#">Store</a>
             </li>
-            <!--<li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
-          </ul> 
-          
-          
-          
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          -->
-          </form>
-        </div>
-      </div>
+          </ul>  
+        </div><!-- end of collapse -->
+
+      </div><!-- end of container-fluid -->
     </nav>
 
     <section id="hero">
@@ -69,7 +51,7 @@
         <section id="about">
           <article id="about-me" class="about">
             <hgroup>
-              <h1 class="light-bg">About me</h1>
+              <h2 class="light-bg">About me</h1>
               <h4 class="light-bg">Freelance photographer</h3>
             </hgroup>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum incidunt illo modi earum, animi dolorum expedita, quam sapiente fugiat laborum maxime provident? Ipsam fugiat veniam tempora rerum, minus deleniti unde.</p>
@@ -77,46 +59,47 @@
           
           <article class="about">
             <hgroup id="about-work">
-              <h1 class="light-bg">About my work</h1>
+              <h2 class="light-bg">About my work</h1>
               <h4 class="light-bg">Architecture's influence</h3>
             </hgroup>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore porro harum sapiente voluptate architecto aliquam. Incidunt, fugiat sed? Aliquam, odit labore cum rerum adipisci eos dolorum quas eaque praesentium deleniti!</p>
           </article><!-- end of about-work -->
         </section><!-- end of about -->
       </main>
-        
-      <!-- bootstrap carousel -->
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          
-          <div class="carousel-item active">
-            <img src="/img/compressed_contrapicado_skyscrapers-3184798_1920.jpg" class="d-block w-100" 
-            alt="skyscrapers">
+      
+      <section id="portfolio">
+        <!-- bootstrap carousel -->
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+              <img src="/img/compressed_contrapicado_skyscrapers-3184798_1920.jpg" class="d-block w-100" 
+              alt="skyscrapers">
+            </div>
+            
+            <div class="carousel-item">
+              <img src="/img/compressed_taxi_pedestrians-1853552_1920.jpg" class="d-block w-100" 
+              alt="busy street, taxi and pedestrians">
+            </div>
+            
+            <div class="carousel-item">
+              <img src="/img/compressed_highway_hong-kong-1990268_1920.jpg" class="d-block w-100" 
+              alt="light painting of cars headligts on highway">
+            
+            </div>
           </div>
-          
-          <div class="carousel-item">
-            <img src="/img/compressed_taxi_pedestrians-1853552_1920.jpg" class="d-block w-100" 
-            alt="busy street, taxi and pedestrians">
-          </div>
-          
-          <div class="carousel-item">
-            <img src="/img/compressed_highway_hong-kong-1990268_1920.jpg" class="d-block w-100" 
-            alt="light painting of cars headligts on highway">
-          
-          </div>
-        </div>
 
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div> 
-      <!-- end of carousel -->
-    
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> 
+        <!-- end of carousel -->
+      </section><!-- end of portfolio -->
           
      
     <footer>
