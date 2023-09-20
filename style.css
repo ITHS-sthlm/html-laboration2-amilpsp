@@ -3,13 +3,8 @@
 :root {
   font-family: "Open Sans", sans-serif;
 
-  --pink-8bit: #ef476f;
   --yellow-8bit: #ffd166;
-  --green-8bit: #06d6a0;
-  --lblue-8bit: #118ab2;
   --dblue-8bit: #073b4c;
-  /* haven't decided which palette I'll use */
-  /* !! DELETE EXCESS !! */
   --white-muted: #f4f1de;
   --orange-muted: #e07a5f;
   --blue-muted: #3d405b;
@@ -60,18 +55,17 @@ main {
 }
 
 #about {
-  padding: 1em 0.5em 1em 0.5em;
-  background-color: #118ab2 !important;
+  padding: 1em 0.7em 1em 0.7em;
 }
 article {
-  background-color: var(--dblue-8bit);
+  background-color: var(--green-muted);
   border-radius: 8px;
-  padding: 0.2em;
+  padding: 1em 0.7em;
   margin-bottom: 1em;
 }
 
 .light-bg {
-  color: #073b4c !important;
+  color: var(--dblue-8bit) !important;
 }
 
 /* carousel customization */
@@ -83,13 +77,11 @@ slide,
 .carousel > img,
 .dblock {
   width: 100vw !important;
-  height: 100vh !important;
   margin: auto auto !important;
 }
 
 /* end carousel */
 footer {
-  background-color: var(--dblue-8bit);
   color: var(--white-muted);
   display: inherit;
   justify-content: center;
