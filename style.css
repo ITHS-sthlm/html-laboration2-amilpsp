@@ -44,6 +44,10 @@ main {
   background-repeat: none;
 }
 
+@media screen and (max-width: 1000px) {
+  /* add a smaller version of the background image */
+}
+
 #hero-text {
   font-family: "Open Sans";
   text-align: center;
@@ -132,7 +136,7 @@ slide,
 .dblock {
   border-image-slice: fill;
   height: 66vw;
-  width: 99vw !important;
+  width: 99vw;
 }
 
 /* end carousel */
