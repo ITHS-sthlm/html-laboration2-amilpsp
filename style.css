@@ -64,33 +64,6 @@ main {
 #about {
   padding: 1em 0.4em;
 }
-article.about {
-  background-color: var(--main);
-  border-radius: 8px;
-  padding: 1em 0.4em;
-  margin-bottom: 1em;
-}
-.about p {
-  background-color: var(--darkest);
-  border-radius: 0 0 8px 8px;
-  padding: 0.6em;
-  margin-top: 1em;
-}
-.about h2 {
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 0;
-}
-.about h4 {
-  font-style: italic;
-  text-align: center;
-}
-.light-bg {
-  color: var(--darkest);
-}
-.dark-bg {
-  columns: var(--main);
-}
 
 /* adaptive photo layout */
 .photo-layout {
@@ -146,4 +119,6 @@ footer {
   justify-content: center;
   align-items: center;
   max-width: 99vw;
+}
+.button a {
 }
