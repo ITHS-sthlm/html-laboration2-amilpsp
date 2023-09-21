@@ -54,6 +54,7 @@ main {
 
 #about {
   padding: 1em 0.4em;
+  flex-direction: row;
 }
 article.about {
   background-color: var(--main);
