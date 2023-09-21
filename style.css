@@ -109,6 +109,7 @@ article.about {
 .photo-layout img {
   max-height: 100%;
   min-width: 100%;
+  max-width: 98vw;
   padding: 0 0 0.5em 0.5em;
   border-image-slice: fill; /* my adition */
   object-fit: cover;
