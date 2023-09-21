@@ -22,12 +22,17 @@ body {
 
 #top,
 main {
-  display: inherit;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  min-height: 95vh;
   width: 99vw;
+}
+#top {
+  display: inherit;
+  min-height: 95vh;
+}
+main {
+  display: flex;
 }
 .hero {
   height: 95vh;
@@ -54,7 +59,6 @@ main {
 
 #about {
   padding: 1em 0.4em;
-  flex-direction: row;
 }
 article.about {
   background-color: var(--main);
