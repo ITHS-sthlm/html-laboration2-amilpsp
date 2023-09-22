@@ -15,30 +15,16 @@
   --lightest: #cab99d;
 }
 
-body {
-  overflow-x: hidden;
-  margin-top: 60px;
-  /* so that navbar doesn't cover content */
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  /* change this in desktop */
-}
-
-#top,
 main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 99vw;
 }
 #top {
   display: inherit;
   min-height: 95vh;
 }
-main {
-  display: flex;
-}
+
 .hero {
   height: 95vh;
   width: 100vw;
@@ -85,7 +71,7 @@ main {
   align-items: center stretch;
 }
 
-#portfolio h1 {
+h1:not(#hero-h1) {
   padding: 0.2em;
   margin: 0 4em 0.5em 4em;
   text-align: center;
@@ -146,8 +132,8 @@ slide,
 /* end portfolio */
 footer {
   color: var(--white-muted);
-  display: inherit;
+  display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 99vw;
+  width: 100vw;
 }
