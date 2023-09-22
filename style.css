@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 :root {
@@ -16,23 +17,16 @@
 }
 body {
   overflow-x: hidden;
-  margin-top: 60px;
-  /* so that navbar doesn't cover content */
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   /* change this in desktop */
 }
 
-#top,
 main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
-#top {
-  display: inherit;
-  min-height: 95vh;
 }
 
 .hero {
@@ -85,6 +79,8 @@ h1:not(#hero-h1) {
   padding: 0.2em;
   margin: 0 4em 0.5em 4em;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
   border-style: solid;
   border-radius: 0.2em;
   border-width: 1px;
