@@ -14,7 +14,17 @@
   --white-muted: #f4f1de;
   --lightest: #cab99d;
 }
+body {
+  overflow-x: hidden;
+  margin-top: 60px;
+  /* so that navbar doesn't cover content */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* change this in desktop */
+}
 
+#top,
 main {
   flex-wrap: wrap;
   justify-content: center;
