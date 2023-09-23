@@ -76,11 +76,11 @@ main {
 }
 
 h1:not(#hero-h1) {
-  padding: 0.2em;
-  margin: 0 4em 0.5em 4em;
-  text-align: center; /* 
+  /* padding: 0.2em;
+  margin: 0 4em 0.5em 4em; */
+  text-align: center;
   text-transform: uppercase;
-  font-weight: 700; */
+  font-weight: 700;
   border-style: solid;
   border-radius: 0.2em;
   border-width: 1px;
