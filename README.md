@@ -55,8 +55,3 @@ Varje person i ska redovisa sin insats i projektet i en **presentation som ni se
 Minst två bildvarianter ska anges för bilden i fråga. Bildfilerna **ska se likadana ut**, förutom att de ska **skilja sig i upplösning** (hur många bildpunkter bilderna består av). Optimerade bilder bidrar till sökmotoroptimering. [The GIMP](https://www.gimp.org/) kan användas för att skapa olika storleksvarianter av en bild. Vidare måste `img`-elementet som utgångspunkt ha ett beskrivande `alt`-attribut, som en del i tillgänglighetskravet kring att [beskriva med text allt innehåll som inte är text](https://webbriktlinjer.se/riktlinjer/115-textalternativ/) och [Google:s SEO-rekommendationer kring optimering av bilder](https://support.google.com/webmasters/answer/7451184?hl=sv&ref_topic=9460495#images).
 
 Gör gärna, om tid finns, ytterligare tillgänglighets- och sökmotorsoptimeringsförbättringar utöver kraven som nämns ovan.
-
-
-- 
-
-
