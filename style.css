@@ -15,7 +15,7 @@
   --lightest: #cab99d;
   --mobile-vw: ;
   --tablet-vw: ;
-  --desktop-vw: ;
+  --desktop-vw: 800px;
 }
 body {
   overflow-x: hidden;
