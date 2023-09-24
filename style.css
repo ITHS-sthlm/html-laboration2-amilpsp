@@ -161,7 +161,7 @@ slide,
     height: 40vw;
     width: 60vw;
   }
-  #testimonials {
+  #testimonials-container {
     display: flex;
     flex-direction: column;
     align-items: center;
