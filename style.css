@@ -24,13 +24,11 @@ body {
   flex-wrap: wrap;
   /* change this in desktop */
 }
-
 main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-
 .hero {
   height: 90vh;
   width: 100vw;
@@ -40,7 +38,6 @@ main {
   background-position: center;
   background-repeat: none;
 }
-
 @media screen and (max-width: 1000px) {
   /* add a smaller version of the background image */
   .hero {
@@ -196,6 +193,7 @@ footer {
   justify-content: center;
   align-items: center;
   margin: 1em 0;
+  padding: 1em 0;
 }
 footer a {
   text-decoration: none;
