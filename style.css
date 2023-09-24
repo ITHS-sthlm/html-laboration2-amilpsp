@@ -174,8 +174,34 @@ slide,
 footer {
   color: var(--white-muted);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 90vw;
   margin: 1em 0;
+}
+#footer-container {
+  flex-direction: row;
+}
+#contact-ul li {
+  list-style-position: inside;
+  list-style-type: none;
+  padding-left: 2em;
+}
+#contact-ul li:nth-child(1) {
+  background: url(img/icons/icons8-phone-50.png) no-repeat;
+  background-size: 1.2em;
+}
+#contact-ul li:nth-child(2) {
+  background: url(img/icons/icons8-message-48.png) no-repeat;
+  background-size: 1.2em;
+}
+#contact-ul li:nth-child(3) {
+  background: url(img/icons/icons8-location-50.png) no-repeat;
+  background-size: 1.2em;
+}
+
+#icon-container {
+  align-items: center;
+  justify-content: center;
 }
