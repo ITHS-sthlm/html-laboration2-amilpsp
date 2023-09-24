@@ -131,8 +131,8 @@ slide,
 .carousel img,
 .dblock {
   border-image-slice: fill;
-  height: 66vw;
-  width: 99vw;
+  height: 70vw;
+  width: 100vw;
 }
 
 @media screen and (min-width: 850px) {
@@ -144,7 +144,7 @@ slide,
   .carousel img,
   .dblock {
     border-image-slice: fill;
-    height: 33vw;
+    height: 40vw;
     width: 60vw;
   }
   #testimonials {
