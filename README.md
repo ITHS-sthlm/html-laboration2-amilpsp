@@ -1,26 +1,27 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/dZO47OCI)
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11865342&assignment_repo_type=AssignmentRepo)
+
 # Välkommen till HMTL Laboration 2
 
 Projektet är ett **individuellt arbete**.
 
 Objektivet i arbetet är att **bygga en webbplats åt en påhittad (eller riktig) organisation/kund**. Tanken är att ni kommer på er egen projektidé (och själva agerar kund), men här är tre exempel som kan användas för inspiration:
 
--   En webbplats åt en restaurang, ett café, eller liknande
--   En webbplats åt någon typ av evanemang, till exempel en musikfestival
--   En e-handelsbutik, som till exempel säljer kläder
+- En webbplats åt en restaurang, ett café, eller liknande
+- En webbplats åt någon typ av evanemang, till exempel en musikfestival
+- En e-handelsbutik, som till exempel säljer kläder
 
 Eftersom vi bara har gått igenom HTML och CSS, och inga andra språk förväntas användas i projektet, så **finns det inga krav kring programmering med JavaScript eller liknande**. Projektet behöver till exempel inte stödja inloggningar/konton, försäljning av produkter, och så vidare.
 
 Webbplatsen **ska vara responsiv och fungera väl på alla bredder mellan `360px` (mobiler) och `980px` (desktop)**. Det kommer med största sannolikhet att vara betydligt effektivare att bygga sajten med “mobile-first”-process, istället för att börja med att bygga sajten för datorskärmar och sedan “skala ner” den till att fungera väl på mobiler men det är helt upp till er hur ni önskar utföra det och det finns inget rätt eller fel i hur man gör det men det ska kort och gott fungera på alla skärmar.
 
-Projektet  **måste**  vara tillgängligt i det avseende att det alltid är **[en tillräckligt hög kontrast mellan text och bakgrund](https://webbriktlinjer.se/riktlinjer/126-tillrackliga-kontraster/)**. [https://color.review/](https://color.review/) kan vara behjälpligt kring att identifiera lämpliga färger att använda. Det räcker att uppfylla kraven för AA.
+Projektet **måste** vara tillgängligt i det avseende att det alltid är **[en tillräckligt hög kontrast mellan text och bakgrund](https://webbriktlinjer.se/riktlinjer/126-tillrackliga-kontraster/)**. [https://color.review/](https://color.review/) kan vara behjälpligt kring att identifiera lämpliga färger att använda. Det räcker att uppfylla kraven för AA.
 
-Det finns inga krav på att ni måste göra ett antal sidor, det är valfritt men glöm ej att sidan måste ha:  
-- Navbar  
-- Innehåll  
+Det finns inga krav på att ni måste göra ett antal sidor, det är valfritt men glöm ej att sidan måste ha:
+
+- Navbar
+- Innehåll
 - Footer
-
 
 ### Krav för G
 
@@ -34,11 +35,11 @@ Det finns inga krav på att ni måste göra ett antal sidor, det är valfritt me
 
 - Man ska använda **[`title`](https://developers.google.com/search/docs/beginner/seo-starter-guide?hl=sv&visit_id=637667214098085977-1872329024&rd=1#uniquepagetitles) och [`description`](https://developers.google.com/search/docs/beginner/seo-starter-guide?hl=sv&visit_id=637667214098085977-1872329024&rd=1#descriptionmeta)**, samt **rubrikelement** (alltså `h1`-`h6`), på ett lämpligt sätt, enligt [Google:s SEO-rekommendationer kring att hjälpa Google och användare att förstå innehållet](https://support.google.com/webmasters/answer/7451184?hl=sv&ref_topic=9460495#understand_your_content) och tillgänglighetsrekommendationerna [Skriv beskrivande sidtitlar](https://webbriktlinjer.se/riktlinjer/135-skriv-beskrivande-sidtitlar/) och [Skapa rubriker med h-element](https://webbriktlinjer.se/riktlinjer/105-skapa-rubriker-med-h-element/).
 
-- All kod ska vara **fri från fel i W3C:s valideringstjänster för HTML och CSS (det räcker att hela görs på HTML och CSS även om ni såg vid live kodningen att det kan vara hjälpligt att göra efter varje ny "section" eller "avsnitt" och man måste ange och bekräfta med en kommentar att både HTML och CSS är validerat innan inlämning.**
+- All kod ska vara **fri från fel i W3C:s valideringstjänster för HTML och CSS (det räcker att hela görs på HTML och CSS även om ni såg vid live kodningen att det kan vara hjälpligt att göra efter varje ny "section" eller "avsnitt" och man måste ange och bekräfta med en kommentar att både HTML och CSS är validerat innan inlämning).**
 
-**Exempel i CSS: /*All kod validerad*/ längst ned på sidan**
+**Exempel i CSS: /_All kod validerad_/ längst ned på sidan**
 
-Varje person i ska redovisa sin insats i projektet i en **presentation som ni sedan presenterar**, samt lämna in sitt arbete.  
+Varje person i ska redovisa sin insats i projektet i en **presentation som ni sedan presenterar**, samt lämna in sitt arbete.
 
 ### Ytterligare krav för VG
 
